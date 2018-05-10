@@ -108,6 +108,11 @@ class ControllerExtensionPaymentPPAlphacommercehub extends Controller {
         } else {
             $data['payment_pp_alphacommercehub_user'] = $this->config->get('payment_pp_alphacommercehub_user');
         }
+if (isset($this->request->post['payment_pp_alphacommercehub_mode'])) {
+            $data['payment_pp_alphacommercehub_mode'] = $this->request->post['payment_pp_alphacommercehub_mode'];
+        } else {
+            $data['payment_pp_alphacommercehub_mode'] = $this->config->get('payment_pp_alphacommercehub_mode');
+        }
         
         if (isset($this->request->post['payment_pp_alphacommercehub_url'])) {
             $data['payment_pp_alphacommercehub_url'] = $this->request->post['payment_pp_alphacommercehub_url'];
