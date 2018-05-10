@@ -16,6 +16,7 @@ $_['entry_url']                                             = 'Hosted Payment Pa
 $_['entry_userid']                                          = 'User ID';
 $_['entry_merchant']                                          = 'Merchant ID';
 $_['entry_test']					 = 'Sandbox Mode';
+$_['entry_mode']                                          = 'Mode';
 $_['entry_transaction']				 = 'Transaction Method';
 $_['entry_debug']					 = 'Debug Mode';
 $_['entry_total']					 = 'Total';
